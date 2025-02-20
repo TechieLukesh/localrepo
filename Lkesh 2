@@ -1,0 +1,22 @@
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+-- To modify a column:
+ALTER TABLE table_name
+MODIFY column_name new_datatype;
+
+-- To drop a column:
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+DROP TABLE table_name;
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+DELETE FROM table_name
+WHERE condition;
